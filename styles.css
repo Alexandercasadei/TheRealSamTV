@@ -98,18 +98,18 @@ body {
     to { opacity: 1; }
 }
 .shop-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     background-color: #ff4500; /* Colore di sfondo del pulsante */
     color: white; /* Colore del testo e dell'icona */
-    padding: 15px 30px; /* Simile agli altri pulsanti */
+    padding: 10px 20px;
     margin-top: 20px;
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.2em;
-    border-radius: 8px;
-    
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
 .shop-button i {
     margin-right: 10px;
 }
